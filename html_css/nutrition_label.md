@@ -1,14 +1,10 @@
-### Effect
-
-------
+## Effect
 
 
 
 
 
-### Knowledge
-
-------
+## Knowledge
 
 #### *float*
 
@@ -16,7 +12,4 @@
 
 
 
-### Code
-
-------
-
+## Code

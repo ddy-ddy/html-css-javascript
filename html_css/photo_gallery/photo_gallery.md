@@ -1,14 +1,10 @@
 ## 效果
 
-------
-
 ![](https://tva1.sinaimg.cn/large/e6c9d24egy1h4nnw1ts3lj21am0u0gqu.jpg)
 
 
 
 ## 知识
-
-------
 
 #### *Flexbox*
 
@@ -39,8 +35,6 @@
 
 
 ## 代码
-
-------
 
 - index.html
 
