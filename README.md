@@ -4,11 +4,15 @@
 
 <h1 align="center">The process of learning html, css and javascript</h1>
 
-建这个仓库的主要目的是为了记录自己学习html，css和JavaScript的过程。目前主要是跟着[freecodecamp](https://www.freecodecamp.org/)里面的项目练手，仓库记录了自己完成的项目的代码以及撰写的博客。
+#### Purpose？
 
-你可以点击每个项目的markdown或者浏览发布在我个人网站上的博客，查看该项目最终的效果和相应的笔记，然后在该项目文件夹下下载代码。
+- 建这个仓库的主要目的是为了记录自己学习html，css和JavaScript的过程
+- 目前是跟着[freecodecamp](https://www.freecodecamp.org/)里面的项目练手，仓库记录了自己完成项目的代码以及撰写的博客
 
-本仓库会持续更新！！！
+#### How to use？
+
+- 点击Blog，查看该项目的最终效果，查看能从该项目中学到什么知识
+- 点击Code，获取相对应的代码
 
 
 
@@ -16,8 +20,9 @@
 
 #### 1. *photo gallery*
 
-- [Code](https://github.com/ddy-ddy/html-css-javascript/tree/master/html_css/photo_gallery)
 - [Blog](https://www.ddy-ddy.com/Blog/blog-35?14)
+
+- [Code](https://github.com/ddy-ddy/html-css-javascript/tree/master/html_css/photo_gallery)
 
 
 
