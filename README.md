@@ -24,7 +24,7 @@ Flexbox helps you design your webpage so that it looks good on any screen size.
 
 In this course, you'll use Flexbox to build a responsive photo gallery webpage .
 
-[Blog](https://www.ddy-ddy.com/Blog/blog-35?14)	[Code](https://github.com/ddy-ddy/html-css-javascript/tree/master/html_css/photo_gallery)
+[Blog](https://www.ddy-ddy.com/Blog/blog-35?14)	|	[Code](https://github.com/ddy-ddy/html-css-javascript/tree/master/html_css/photo_gallery)
 
 #### 2. *Nutrition label*
 
@@ -32,7 +32,7 @@ Typography is the art of styling your text to be easily readable and suit its pu
 
 In this course, you'll use typography to build a nutrition label webpage . You'll learn how to style text, adjust line height, and position your text using CSS.
 
-[Blog](https://www.ddy-ddy.com/Blog/blog-36?14)	[Code](https://github.com/ddy-ddy/html-css-javascript/tree/master/html_css/nutrition_label)
+[Blog](https://www.ddy-ddy.com/Blog/blog-36?14)	|	[Code](https://github.com/ddy-ddy/html-css-javascript/tree/master/html_css/nutrition_label)
 
 
 
