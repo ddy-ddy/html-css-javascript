@@ -1,10 +1,18 @@
-## 效果
+## Purpose
+
+Flexbox helps you design your webpage so that it looks good on any screen size.
+
+In this course, you'll use Flexbox to build a responsive photo gallery webpage.
+
+
+
+## Effect
 
 ![](https://tva1.sinaimg.cn/large/e6c9d24egy1h4nnw1ts3lj21am0u0gqu.jpg)
 
 
 
-## 知识
+## Knowledge
 
 #### *Flexbox*
 
@@ -34,7 +42,7 @@
 
 
 
-## 代码
+## Code
 
 - index.html
 
