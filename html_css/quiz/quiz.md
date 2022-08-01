@@ -29,7 +29,15 @@ In this course, you'll build a quiz webpage. You'll learn accessibility tools su
 </head>
 ```
 
+#### *2. role="region"* & aria-labelledby
 
+- To increase the page accessibility, the `role` attribute can be used to indicate the purpose behind an element on the page to assistive technologies. The `role` attribute is a part of the *Web Accessibility Initiative* (WAI), and accepts preset values.
+
+- Every `region` role requires a visible label, which should be referenced by the `aria-labelledby` attribute.
+
+```html
+<section role="region" aria-labelledby="student-info"></section>
+```
 
 
 
