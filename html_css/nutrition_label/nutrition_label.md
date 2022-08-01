@@ -14,15 +14,15 @@ In this course, you'll use typography to build a nutrition label webpage. You'll
 
 ## Knowledge
 
-#### *float*
+#### *1. float*
 
 - The `float` property is used to place an element on the left or right of its container, allowing other content (such as text) to wrap around it.
 
-#### *Indent*
+#### *2. Indent*
 
 - 用margin来代替indent (缩进)
 
-#### :*not*
+#### *3. div:not*
 
 ```css
 div:not(#example) {

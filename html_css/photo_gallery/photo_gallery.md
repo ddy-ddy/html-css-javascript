@@ -14,23 +14,23 @@ In this course, you'll use Flexbox to build a responsive photo gallery webpage.
 
 ## Knowledge
 
-#### *Flexbox*
+#### *1. Flexbox*
 
 - `Flexbox` is a one-dimensional CSS layout approach that focuses on the flow of content. It offers the ability to control the way items are spaced and aligned within a container.
 
-#### *justify-content*
+#### *2. justify-content*
 
 - The `justify-content` property determines how the items inside a flex container are positioned along the main axis, affecting their position and the space around them.
 
-#### *align-items*
+#### *3. align-items*
 
 - The `align-items` property positions the flex content along the cross axis. In this case, with your `flex-direction` set to `row`, your cross axis would be vertical.
 
-#### *object-fit*
+#### *4. object-fit*
 
 -  Rather than setting each aspect ratio individually, you can use the `object-fit` property to determine how images should behave.
 
-#### *media query*
+#### *5. media query*
 
 ```css
 @media (max-width: 800px) {
