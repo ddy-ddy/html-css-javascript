@@ -26,7 +26,7 @@ In this course, you'll use Flexbox to build a responsive photo gallery webpage .
 
 [Blog](https://www.ddy-ddy.com/Blog/blog-35?14)	|	[Code](https://github.com/ddy-ddy/html-css-javascript/tree/master/html_css/photo_gallery)
 
-#### 2. *Nutrition label*
+#### 2. *nutrition label*
 
 Typography is the art of styling your text to be easily readable and suit its purpose.
 
@@ -34,13 +34,23 @@ In this course, you'll use typography to build a nutrition label webpage . You'l
 
 [Blog](https://www.ddy-ddy.com/Blog/blog-36?14)	|	[Code](https://github.com/ddy-ddy/html-css-javascript/tree/master/html_css/nutrition_label)
 
-#### *3. Quiz*
+#### *3. quiz*
 
 Accessibility is making your webpage easy for all people to use – even people with disabilities.
 
 In this course, you'll build a quiz webpage. You'll learn accessibility tools such as keyboard shortcuts, ARIA attributes, and design best practices.
 
 [Blog](https://www.ddy-ddy.com/Blog/blog-39) | [Code](https://github.com/ddy-ddy/html-css-javascript/tree/master/html_css/quiz)
+
+#### *3. balance sheet*
+
+You can use CSS pseudo selectors to change specific HTML elements.
+
+In this course, you'll build a balance sheet using pseudo selectors. You'll learn how to change the style of an element when you hover over it with your mouse, and trigger other events on your webpage.
+
+[Blog](https://www.ddy-ddy.com/Blog/blog-42) | [Code](https://github.com/ddy-ddy/html-css-javascript/tree/master/html_css/balance_sheet)
+
+#### 
 
 
 
