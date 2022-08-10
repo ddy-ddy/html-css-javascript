@@ -56,4 +56,12 @@ In this course, you'll build a balance sheet using pseudo selectors. You'll lear
 
 ## JavaScript
 
-Studying now...
+#### *1. basic grammar*
+
+learn fundamental programming concepts in JavaScript. Starting with basic data structures like numbers and strings. Then you'll learn to work with arrays, objects, functions, loops, if/else statements, and more.
+
+[Blog](https://www.ddy-ddy.com/Blog/blog-43) | [Code](https://github.com/ddy-ddy/html-css-javascript/tree/master/js)
+
+
+
+#### 
