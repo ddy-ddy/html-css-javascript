@@ -22,10 +22,10 @@ var myName;
 #### 3. 给变量赋值
 
 ```javascript
-//	先声明变量，再赋值
+//先声明变量，再赋值
 var a;// 声明变量
 var a=7;// 给变量赋值
-// 一行代码实现初始化+赋值
+//一行代码实现初始化+赋值
 var a=9;
 ```
 
@@ -39,11 +39,9 @@ var myLastName="Yu";
 #### 5. 字符串相加
 
 ```javascript
-// Only change code below this line
 var a=5;
 var b=10;
 var c="I am a";
-// Only change code above this line
 a = a + 1;
 b = b + 5;
 c = c + " String!";
@@ -56,12 +54,10 @@ c = c + " String!";
 - 示例命名: `var someVariable`, `var anotherVariableName`, `var thisVariableNameIsSoLong`
 
 ```javascript
-// Variable declarations
 var studlyCapVar;
 var properCamelCase;
 var titleCaseOver;
 
-// Variable assignments
 studlyCapVar = 10;
 properCamelCase = "A String";
 titleCaseOver = 9000;
@@ -79,10 +75,10 @@ let catName = "Oliver";
 let catSound = "Meow!";
 
 // const
-const FCC = "freeCodeCamp"; // Change this line
-let fact = "is cool!"; // Change this line
+const FCC = "freeCodeCamp"; 
+let fact = "is cool!"; 
 fact = "is awesome!";
-console.log(FCC, fact); // Change this line
+console.log(FCC, fact); 
 ```
 
 #### 10. 计算
@@ -110,5 +106,28 @@ a += 12;
 a -= 6;
 a *= 5;
 a /= 12;
+```
+
+#### 11. 转义字符
+
+<img src="https://tva1.sinaimg.cn/large/e6c9d24egy1h539vehlecj20dq0iujs0.jpg" style="zoom:50%;" />
+
+```javascript
+const myStr = "I am a \"double quoted\" string inside \"double quotes\".";
+// output: I am a "double quoted" string inside "double quotes".
+```
+
+#### 12. 对字符串的一系列操作
+
+- 字符串是不可变的，即无法更改字符串里面的内容。但是可以给这个变量更换一个新的字符串！
+
+```javascript
+let myStr="this is a good day";
+let number=myStr.length;  //求字符串长度
+let firstWord=mystr[0]; //求字符串第一个字符
+
+// 只能给变量换一个新的字符串
+let myStr = "Jello World";
+myStr = "Hello World";
 ```
 
