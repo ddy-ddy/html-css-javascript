@@ -50,7 +50,11 @@ In this course, you'll build a balance sheet using pseudo selectors. You'll lear
 
 [Blog](https://www.ddy-ddy.com/Blog/blog-42) | [Code](https://github.com/ddy-ddy/html-css-javascript/tree/master/html_css/balance_sheet)
 
-#### 
+#### *4. picasso painting*
+
+In this course, you'll learn how to use some intermediate CSS techniques by coding your own Picasso painting webpage. You'll learn about SVG icons, CSS positioning, and review other CSS skills you've learned.
+
+[Blog](https://www.ddy-ddy.com/Blog/blog-44) | [Code](https://github.com/ddy-ddy/html-css-javascript/tree/master/html_css/picasso_painting)
 
 
 

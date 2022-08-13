@@ -1,186 +1,255 @@
-@media (prefers-reduced-motion: no-preference) {
-  * {
-    scroll-behavior: smooth;
-  }
-}
-
 body {
-  background: #f5f6f7;
-	color: #1b1b32;
-	font-family: Helvetica;
-	margin: 0;
+  background-color: rgb(184, 132, 46);
 }
 
-header {
+#back-wall {
+  background-color: #8B4513;
   width: 100%;
-	height: 50px;
-	background-color: #1b1b32;
-	display: flex;
-  justify-content: space-between;
-  align-items: center;
-  position: fixed;
-  top: 0;
-}
-
-#logo {
-  width: max(100px, 18vw);
-	background-color: #0a0a23;
-  aspect-ratio: 35 / 4;
-	padding: 0.4rem;
-}
-
-h1 {
-  color: #f1be32;
-	font-size: min(5vw, 1.2em);
-  text-align: center;
-}
-
-nav {
-  width: 50%;
-	max-width: 300px;
-	height: 50px;
-}
-
-nav > ul {
-  display: flex;
-	justify-content: space-evenly;
-  flex-wrap: wrap;
-	align-items: center;
-	padding-inline-start: 0;
-	margin-block: 0;
-	height: 100%;
-}
-
-nav > ul > li {
-  color: #dfdfe2;
-  margin: 0 0.2rem;
-	padding: 0.2rem;
-	display: block;
-}
-
-nav > ul > li:hover {
-  background-color: #dfdfe2;
-  color: #1b1b32;
-  cursor: pointer;
-}
-
-li > a {
-  color: inherit;
-  text-decoration: none;
-}
-
-main {
-  padding-top: 50px;
-}
-
-section {
-  width: 80%;
-  margin: 0 auto 10px auto;
-  max-width: 600px;
-}
-
-h1,
-h2 {
-  font-family: Verdana, Tahoma;
-}
-
-h2 {
-  border-bottom: 4px solid #dfdfe2;
-  margin-top: 0px;
-  padding-top: 60px;
-}
-
-.info {
-  padding: 10px 0 0 5px;
-}
-
-.formrow {
-  margin-top: 30px;
-	padding: 0px 15px;
-}
-
-input {
-  font-size: 16px;
-}
-
-.info label, .info input {
-  display: inline-block;
-  text-align: right;
-}
-
-.info input {
-  width: 50%;
-  text-align: left;
-}
-
-.info label {
-  width: 10%;
-  min-width: 55px;
-}
-
-.question-block {
-  text-align: left;
-	display: block;
-	width: 100%;
-	margin-top: 20px;
-	padding-top: 5px;
-}
-
-p {
-  margin-top: 5px;
-  padding-left: 15px;
-  font-size: 20px;
-}
-
-p::before {
-  content: "Question #";
-}
-
-.question {
-  border: none;
-  padding-bottom: 0;
-}
-
-.answers-list {
-  list-style: none;
-  padding: 0;
-}
-
-button {
-	display: block;
-	margin: 40px auto;
-	width: 40%;
-	padding: 15px;
-	font-size: 23px;
-	background: #d0d0d5;
-	border: 3px solid #3b3b4f;
-}
-
-footer {
-	background-color: #2a2a40;
-	display: flex;
-	justify-content: center;
-}
-
-footer,
-footer a {
-  color: #dfdfe2;
-}
-
-address {
-  text-align: center;
-  padding: 0.3em;
-}
-
-.sr-only {
+  height: 60%;
   position: absolute;
-	width: 1px;
-	height: 1px;
-	padding: 0;
-	margin: -1px;
-	overflow: hidden;
-	clip: rect(0, 0, 0, 0);
-	white-space: nowrap;
-	border: 0;
+  top: 0;
+  left: 0;
+  z-index: -1;
 }
 
+#offwhite-character {
+  width: 300px;
+  height: 550px;
+  background-color: GhostWhite;
+  position: absolute;
+  top: 20%;
+  left: 17.5%;
+}
+
+#white-hat {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 120px 140px 180px;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-bottom-color: GhostWhite;
+  border-left-color: transparent;
+  position: absolute;
+  top: -140px;
+  left: 0;
+}
+
+#black-mask {
+  width: 100%;
+  height: 50px;
+  background-color: rgb(45, 31, 19);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+#gray-instrument {
+  width: 15%;
+  height: 40%;
+  background-color: rgb(167, 162, 117);
+  position: absolute;
+  top: 50px;
+  left: 125px;
+  z-index: 1;
+}
+
+.black-dot {
+  width: 10px;
+  height: 10px;
+  background-color: rgb(45, 31, 19);
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+  margin-top: 65%;
+}
+
+#tan-table {
+  width: 450px;
+  height: 140px;
+  background-color: #D2691E;
+  position: absolute;
+  top: 275px;
+  left: 15px;
+  z-index: 1;
+}
+
+#black-character {
+  width: 300px;
+  height: 500px;
+  background-color: rgb(45, 31, 19);
+  position: absolute;
+  top: 30%;
+  left: 59%;
+}
+
+#black-hat {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 150px 0 0 300px;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+  border-left-color: rgb(45, 31, 19);
+  position: absolute;
+  top: -150px;
+  left: 0;
+}
+
+#gray-mask {
+  width: 150px;
+  height: 150px;
+  background-color: rgb(167, 162, 117);
+  position: absolute;
+  top: -10px;
+  left: 70px;
+}
+
+#white-paper {
+  width: 400px;
+  height: 100px;
+  background-color: GhostWhite;
+  position: absolute;
+  top: 250px;
+  left: -150px;
+  z-index: 1;
+}
+
+.fa-music {
+  display: inline-block;
+  margin-top: 8%;
+  margin-left: 13%;
+}
+
+.blue {
+  background-color: #1E90FF;
+}
+
+#blue-left {
+  width: 500px;
+  height: 300px;
+  position: absolute;
+  top: 20%;
+  left: 20%;
+}
+
+#blue-right {
+  width: 400px;
+  height: 300px;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+}
+
+#orange-character {
+  width: 250px;
+  height: 550px;
+  background-color: rgb(240, 78, 42);
+  position: absolute;
+  top: 25%;
+  left: 40%;
+}
+
+#black-round-hat {
+  width: 180px;
+  height: 150px;
+  background-color: rgb(45, 31, 19);
+  border-radius: 50%;
+  position: absolute;
+  top: -100px;
+  left: 5px;
+  z-index: -1;
+}
+
+#eyes-div {
+  width: 180px;
+  height: 50px;
+  position: absolute;
+  top: -40px;
+  left: 20px;
+  z-index: 3;
+}
+
+#triangles {
+  width: 250px;
+  height: 550px;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 42px 45px 45px 0;
+  border-top-color: transparent;
+  border-right-color: Gold; /* yellow */
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+  display: inline-block;
+}
+
+#guitar {
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  top: 120px;
+  left: 0px;
+  z-index: 3;
+}
+
+.guitar {
+  width: 150px;
+  height: 120px;
+  background-color: Goldenrod;
+  border-radius: 50%;
+}
+
+#guitar-left {
+  position: absolute;
+  left: 0px;
+}
+
+#guitar-right {
+  position: absolute;
+  left: 100px;
+}
+
+.fa-bars {
+  display: block;
+  margin-top: 30%;
+  margin-left: 40%;
+}
+
+#guitar-neck {
+  width: 200px;
+  height: 30px;
+  background-color: #D2691E;
+  position: absolute;
+  top: 45px;
+  left: 200px;
+  z-index: 3;
+}
+
+.eyes {
+  width: 35px;
+  height: 20px;
+  background-color: #8B4513;
+  border-radius: 20px 50%;
+}
+
+.right {
+  position: absolute;
+  top: 15px;
+  right: 30px;
+}
+
+.left {
+  position: absolute;
+  top: 15px;
+  left: 30px;
+}
+
+.fas{
+  font-size:30px;
+}
